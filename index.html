@@ -2,10 +2,11 @@
 <html>
   <head>
     <title>WakeUpTimes App</title>
+    <link href="style.css" rel ="stylesheet" type="text/css">
   </head>
   <body>
     <h1>WakeUpTimes App</h1>
-    <p>
+    <p class="header">
       A sleep cycle lasts about 90 minutes, and a good night's sleep consists of
       5-6 sleep cycles.
     </p>
@@ -14,6 +15,12 @@
       if you've completed several cycles prior to waking up.
     </p>
     <p>If you go to bed now, when should you wake up?</p>
-    <button>Calculate</button>
+    <button id="calc-btn">Calculate</button>
+
+    <div id="wakeup-hours-div" class="wakeup-hours">
+      
+    </div>
+
+    <script src="index.js"></script>
   </body>
 </html>
